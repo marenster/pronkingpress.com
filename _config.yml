@@ -5,22 +5,37 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
+# Basic info
 title: Pronking Press
 email: info@pronkingpress.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is the home of Pronking Press
+  The home of Pronking Press
 baseurl: "" # the subpath of your site, e.g. /blog
+timezone: America/Los_Angeles
+
 url: "http://pronkingpress.com"
 twitter_username: marenster
 github_username:  marenster
+
+# Custom vars in site
+github:
+  repo:       https://github.com/marenster/marenster.github.io
+
+# Site settings
+paginate:            3
+# Use of `relative_permalinks` ensures post links from the index work
+# properly.
+permalink:           pretty
 
 # Build settings
 markdown: kramdown
 # theme: minima
 gems:
   - jekyll-feed
+  - jekyll-paginate
+
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - vendor

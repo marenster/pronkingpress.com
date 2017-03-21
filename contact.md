@@ -5,8 +5,6 @@ permalink: /contact/
 ---
 
 
-Stay tuned - a contact form is coming real soon.
-
 ## Postal Mail
 Pronking Press
 PO Box 305

@@ -7,3 +7,7 @@ output "bare_bucket_name" {
 output "aws_bucket_endpoint" {
   value = module.static_site.aws_bucket_endpoint
 }
+
+output "www_aws_bucket_endpoint" {
+  value = module.static_site.www_aws_bucket_endpoint
+}

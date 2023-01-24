@@ -6,8 +6,8 @@ permalink: /contact/
 
 
 ## Postal Mail
-Pronking Press
-PO Box 305
+Pronking Press<br>
+PO Box 305<br>
 Monmouth, OR  97361
 
 ## Online

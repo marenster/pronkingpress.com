@@ -30,7 +30,7 @@ permalink:           pretty
 # Build settings
 markdown: kramdown
 # theme: minima
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
 
@@ -39,3 +39,4 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor
+  - tf

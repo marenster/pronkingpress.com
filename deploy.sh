@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # simple site deployment script
-#   - assume awscli is installed and configured
+#   - assume awscli is installed and configured to upload to S3
 #
 set -x
 bundle exec jekyll build

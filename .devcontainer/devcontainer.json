@@ -20,10 +20,8 @@
 	"postCreateCommand": "bundle install",
 
 	// Run command(s) every time(?) after the container is started.
-	// echo 'To see the logs, run: tail -f /tmp/jekyll.log'
-	// "postStartCommand": "nohup bundle exec jekyll serve > /tmp/jekyll.log &"
-	"postStartCommand": "nohup bundle exec jekyll serve > /tmp/jekyll.log &"
-
+	// To see the logs, run: tail -f /tmp/jekyll.log
+	"postStartCommand": "nohup sh -c 'bundle exec jekyll serve &' > /tmp/jekyll.log"
 
 	// Configure tool-specific properties.
 	// "customizations": {},

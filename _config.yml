@@ -40,3 +40,5 @@ exclude:
   - README.md
   - vendor
   - tf
+  - .devcontainer
+  - deploy.sh

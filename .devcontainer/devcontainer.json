@@ -17,7 +17,13 @@
 	"forwardPorts": [4000],
 
 	// Uncomment the next line to run commands after the container is created.
-	"postCreateCommand": "bundle install && bundle exec jekyll serve"
+	"postCreateCommand": "bundle install",
+
+	// Run command(s) every time(?) after the container is started.
+	// echo 'To see the logs, run: tail -f /tmp/jekyll.log'
+	// "postStartCommand": "nohup bundle exec jekyll serve > /tmp/jekyll.log &"
+	"postStartCommand": "nohup bundle exec jekyll serve > /tmp/jekyll.log &"
+
 
 	// Configure tool-specific properties.
 	// "customizations": {},
